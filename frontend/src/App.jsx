@@ -8,6 +8,7 @@ import Project from './componnts/Project/Project'
 import Contact from './componnts/Contact/Contact'
 
 const App = () => {
+  const url = 'https://my-portfolio-deepa.onrender.com';
   return (
     <div>
       <BrowserRouter>
