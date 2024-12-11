@@ -21,7 +21,7 @@ const Contact = () => {
     setResult("Sending...")
 
     try {
-      const response = await axios.post("http://localhost:1000/api/contact", user)
+      const response = await axios.post(`${url}/api/contact`, user)
       const data = response.data;
 
       if (data.success) {
