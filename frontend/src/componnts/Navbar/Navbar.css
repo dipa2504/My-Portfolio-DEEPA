@@ -13,10 +13,10 @@ nav {
 }
 
 nav h1 {
-  color: white;
+  font-family: "Mrs Sheppards", cursive;
   font-size: 2rem;
-  font-weight: bold;
-  margin: 0;
+  font-weight: 100;
+  font-style: normal;
 }
 
 nav ul {
@@ -73,5 +73,15 @@ nav a:hover {
 @media (max-width: 560px){
   nav ul{
     display: none;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  nav h1{
+    font-size: 1.8rem;
   }
 }

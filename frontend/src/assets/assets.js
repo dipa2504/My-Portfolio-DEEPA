@@ -16,7 +16,7 @@ export const assets = {
   codingcloud
 };
 
-export const HERO_CONTENT = `I am passionate about both frontend and backend development, specializing in the MERN Stack. With two years of hands-on experience, I excel in technologies like HTML, CSS, JavaScript, React JS, Node.js, Express, and MongoDB. Driven by the thrill of crafting innovative solutions, my goal is to leverage this passion to drive business growth and deliver exceptional user experiences through technology.`;
+export const HERO_CONTENT = `I am passionate about frontend and backend development, specializing in ReactJS and the MERN Stack. With two years of experience, I have strong skills in HTML, CSS, JavaScript, React JS, Node.js, Express, and MongoDB. I love building innovative solutions that drive business growth and enhance user experiences.`;
 
 export const ABOUT_TEXT = `As a dedicated and adaptable MERN stack developer, I'm passionate about crafting efficient and user-centric web applications. With over two years of experience, I've mastered a diverse array of technologies, including HTML, CSS, JavaScript, React JS, Node.js, and MongoDB.
 
@@ -94,7 +94,7 @@ export const PROJECTS = [
   },
   {
     title: "Quiz App",
-    description: "A fun and interactive quiz app built with ReactJS. Test your knowledge with multiple-choice questions and track your score in real time. .",
+    description: "A fun and interactive quiz app built with ReactJS. Test your knowledge with multiple-choice questions and track your score in real time.",
     image: project3,
     technologies: ["HTML", "CSS", "React"],
     link: "https://quiz-app-chi-blond.vercel.app/" // Live link to your quiz app
@@ -108,5 +108,5 @@ export const CONTACT = {
   email: "deesharma2504@gmail.com",
   github: "https://github.com/dipa2504",
   // linkedin: "https://linkedin.com/in/deepa-sharma-a62028261"
-  linkedin: "https://www.linkedin.com/in/deepa-sharma-289104318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
+  linkedin: "https://linkedin.com/in/deepa-sharma-289104318"
 };
