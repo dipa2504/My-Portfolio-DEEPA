@@ -74,9 +74,11 @@
 }
 
 @media (max-width: 480px) {
+  .skill{
+    min-height: 100vh;
+  }
   .skill-icons {
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 60px;
   }
   .icons {
     font-size: 3.5rem;

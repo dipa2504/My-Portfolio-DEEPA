@@ -33,6 +33,8 @@ const Contact = () => {
     } catch (error) {
       setResult("An error occurred. Please try again later.")
     }
+    console.log("Form Sumbitted", user);
+
   };
 
   const ValueHandler = (e) => {

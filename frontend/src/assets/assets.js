@@ -1,12 +1,17 @@
 import hero_profile from "../assets/hero_profile.jpg";
 
+import worksol from "../assets/Worksol.png";
+import codingcloud from "../assets/CodingCloud.jpg";
+
 import project1 from '../assets/Projects/project-1.jpg'
 import project2 from '../assets/Projects/project-2.jpg'
 import project3 from '../assets/Projects/project-3.jpg'
 import project4 from '../assets/Projects/project-4.jpg'
 
 export const assets = {
-  hero_profile
+  hero_profile,
+  worksol,
+  codingcloud
 };
 
 export const HERO_CONTENT = `I am passionate about both frontend and backend development, specializing in the MERN Stack. With two years of hands-on experience, I excel in technologies like HTML, CSS, JavaScript, React JS, Node.js, Express, and MongoDB. Driven by the thrill of crafting innovative solutions, my goal is to leverage this passion to drive business growth and deliver exceptional user experiences through technology.`;
@@ -19,6 +24,7 @@ Beyond coding, I remain actively engaged in exploring emerging technologies and 
 
 export const EXPERIENCES = [
   {
+    img: worksol,
     year: "2023",
     role: "Frontend Developer Intern",
     company: "Worksol",
@@ -26,6 +32,7 @@ export const EXPERIENCES = [
     technologies: ["HTML", "CSS", "JavaScript", "WIX"],
   },
   {
+    img: codingcloud,
     year: "2023 - 2024",
     role: "MERN Stack Developer",
     company: "Coding Cloud Institute",
@@ -97,7 +104,7 @@ export const CONTACT = {
   name: "Deepa Sharma",
   phoneNo: "+91 6359156158",
   email: "deesharma2504@gmail.com",
-  github:"https://github.com/dipa2504",
+  github: "https://github.com/dipa2504",
   // linkedin: "https://linkedin.com/in/deepa-sharma-a62028261"
   linkedin: "https://www.linkedin.com/in/deepa-sharma-289104318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app "
 };

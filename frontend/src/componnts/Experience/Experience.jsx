@@ -1,6 +1,6 @@
 import React from 'react';
 import './Experience.css';
-import { assets, EXPERIENCES } from '../../assets/assets';
+import { EXPERIENCES } from '../../assets/assets';
 
 const Experience = () => {
   return (
@@ -15,7 +15,7 @@ const Experience = () => {
           >
             <div className="text-box">
               <img
-                src={assets.hero_profile}
+                src={experience.img}
                 alt={`${experience.role} at ${experience.company}`}
                 className="timeline-img"
               />
