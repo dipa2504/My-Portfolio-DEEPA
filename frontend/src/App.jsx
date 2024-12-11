@@ -8,6 +8,7 @@ import Project from './componnts/Project/Project'
 import Contact from './componnts/Contact/Contact'
 
 const App = () => {
+  const url = 'http://localhost:1000';
   return (
     <div>
       <BrowserRouter>

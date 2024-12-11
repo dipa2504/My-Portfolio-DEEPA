@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 app.use(express.json())
 const nodemailer = require('nodemailer')
+require('dotenv').config();
+
 
 const cors = require('cors')
 const { Contact } = require('./models/contact')
@@ -9,9 +11,13 @@ const { Contact } = require('./models/contact')
 app.use(cors())
 require('./mongoose')
 
-app.listen(1000, () => {
-    console.log('Server started on 1000')
-})
+// app.listen(1000, () => {
+//     console.log('Server started on 1000')
+// })
+
+app.listen(process.env.PORT, () => {
+    console.log(`Server started on ${process.env.PORT}`);
+});
 
 app.get('/', (req, res) => {
     res.send('Hello, I am Deepa')
@@ -21,8 +27,10 @@ app.get('/', (req, res) => {
 const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-        user: 'deepa.worksol@gmail.com',
-        pass: 'qvze ajia fpmq hzya'
+        // user: 'deepa.worksol@gmail.com',
+        // pass: 'qvze ajia fpmq hzya'
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS
     }
 })
 
@@ -57,6 +65,7 @@ app.post('/api/contact', async (req, res) => {
             const adminMailOptions = {
                 from: email,
                 to: 'deepa.worksol@gmail.com', // Replace with your email
+                to: process.env.EMAIL_USER,
                 subject: 'My Portfolio',
                 text: `New message from ${name} (${email}, ${mobile}):\n\n${message}`
             };

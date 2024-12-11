@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './Contact.css'
-import { CONTACT } from '../../assets/assets'
+import { CONTACT, url } from '../../assets/assets'
 import { FaEnvelope, FaLinkedin } from "react-icons/fa"
 import { IoCall } from "react-icons/io5"
 import axios from 'axios'
@@ -21,7 +21,8 @@ const Contact = () => {
     setResult("Sending...")
 
     try {
-      const response = await axios.post("http://localhost:1000/api/contact", user)
+      // const response = await axios.post("http://localhost:1000/api/contact", user)
+      const response = await axios.post(`${url}/api/contact`, user)
       const data = response.data;
 
       if (data.success) {

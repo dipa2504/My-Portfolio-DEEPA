@@ -8,6 +8,8 @@ import project2 from '../assets/Projects/project-2.jpg'
 import project3 from '../assets/Projects/project-3.jpg'
 import project4 from '../assets/Projects/project-4.jpg'
 
+export const url='http://localhost:1000' 
+
 export const assets = {
   hero_profile,
   worksol,
