@@ -9,7 +9,7 @@ import Contact from './componnts/Contact/Contact'
 
 const App = () => {
   // const url = 'http://localhost:1000';
-  const url = 'https://my-portfolio-deepa-backend.onrender.com';
+  const url = 'https://my-portfolio-deepa-backend.onrender.com'; 
   return (
     <div>
       <BrowserRouter>
