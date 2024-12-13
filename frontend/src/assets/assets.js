@@ -40,7 +40,7 @@ export const EXPERIENCES = [
     year: "2023 - 2024",
     role: "MERN Stack Developer",
     company: "Coding Cloud Institute",
-    description: `Designed and developed user interfaces for web applications using React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
+    description: `Learned coding from the basics to an advanced beginner level with hands-on project experience. Passionate about CSS and ReactJS libraries. Explored backend development to connect frontend components using Node.js APIs and MongoDB, specializing in the MERN stack. Designed responsive layouts and optimized website performance.`,
     technologies: ["HTML", "CSS", "JavaScript", "React JS", "Node JS", "MongoDB", "Express"],
   },
 ];
