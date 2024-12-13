@@ -10,7 +10,8 @@ import project4 from '../assets/Projects/project-4.jpg'
 import project5 from '../assets/Projects/project-5.jpeg'
 import project6 from '../assets/Projects/project-6.png'
 
-export const url = 'http://localhost:1000'
+// export const url = 'http://localhost:1000'
+export const url = 'https://my-portfolio-deepa-backend.onrender.com'
 
 export const assets = {
   hero_profile,
