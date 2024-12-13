@@ -10,11 +10,10 @@
   
   .experience h1 {
     margin-top: 5rem;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     font-size: 2.5rem;
     text-align: center; 
   }
-  /* General Timeline Styling */
   
 .timeline {
   position: relative;
@@ -23,7 +22,6 @@
   /* padding: 0 50px ; */
 }
 
-/* Timeline Line */
 .timeline::after {
   content: '';
   position: absolute;
@@ -47,7 +45,6 @@
   }
 }
 
-/* Timeline Container */
 .timeline-container {
   position: relative;
   width: 50%;
@@ -79,7 +76,6 @@
   text-align: left;
 }
 
-/* Text Box Styling */
 .text-box {
   background-color: #4b0082;
   color: #fff;
@@ -93,7 +89,6 @@
   max-width: 100%;
 }
 
-/* Profile Image Styling */
 .timeline-container img {
   position: absolute;
   width: 50px;
@@ -114,7 +109,6 @@
   right: -65px;
 }
 
-/* Arrow Styling */
 .l-arrow,
 .r-arrow {
   position: absolute;
@@ -136,7 +130,6 @@
   left: -10px;
 }
 
-/* Headings and Details */
 .text-box h2 {
   font-weight: 600;
   margin-bottom: 10px;
@@ -150,22 +143,22 @@
   color: #d1d1d1;
 }
 
-/* Technology Tags */
 .tech {
   display: inline-block;
-  background-color: #d1d1d1;
+  background-color: #d6bcfa;
   color: #000;
   border-radius: 4px;
-  padding: 2px 8px;
+  padding: 4px 10px;
   font-size: 12px;
   margin-right: 5px;
   margin-top: 10px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  transition: background-color 0.3s ease; /* Smooth transition */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s ease;
 }
 
 .tech:hover {
-  background-color: #d1d1d1; /* Lighter color on hover */
+  background-color: #d1d1d1; 
+  transform: scale(1.1);
 }
 
 /* Media Query for Mobile */

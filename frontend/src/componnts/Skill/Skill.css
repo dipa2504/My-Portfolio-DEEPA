@@ -58,6 +58,9 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
+  .skill h1{
+      margin-bottom: 100px;
+  }
   .skill-icons {
     grid-template-columns: repeat(3, 1fr);
     margin-top: 60px;
@@ -77,6 +80,9 @@
   .skill{
     min-height: 100vh;
   }
+  .skill h1{
+    margin-bottom: 0;
+}
   .skill-icons {
     grid-template-columns: repeat(2, 1fr);
   }

@@ -7,8 +7,10 @@ import project1 from '../assets/Projects/project-1.jpg'
 import project2 from '../assets/Projects/project-2.jpg'
 import project3 from '../assets/Projects/project-3.jpg'
 import project4 from '../assets/Projects/project-4.jpg'
+import project5 from '../assets/Projects/project-5.jpeg'
+import project6 from '../assets/Projects/project-6.png'
 
-export const url='http://localhost:1000' 
+export const url = 'http://localhost:1000'
 
 export const assets = {
   hero_profile,
@@ -16,7 +18,7 @@ export const assets = {
   codingcloud
 };
 
-export const HERO_CONTENT = `I am passionate about frontend and backend development, specializing in ReactJS and the MERN Stack. With two years of experience, I have strong skills in HTML, CSS, JavaScript, React JS, Node.js, Express, and MongoDB. I love building innovative solutions that drive business growth and enhance user experiences.`;
+export const HERO_CONTENT = `I am passionate about frontend and backend development, specializing in ReactJS and the MERN Stack. With two years of hands-on experience, I have strong skills in HTML, CSS, JavaScript, React JS, Node.js, Express, and MongoDB. I love building innovative solutions that drive business growth and enhance user experiences.`;
 
 export const ABOUT_TEXT = `As a dedicated and adaptable MERN stack developer, I'm passionate about crafting efficient and user-centric web applications. With over two years of experience, I've mastered a diverse array of technologies, including HTML, CSS, JavaScript, React JS, Node.js, and MongoDB.
 
@@ -80,24 +82,46 @@ export const EXPERIENCES = [
 export const PROJECTS = [
   {
     title: "Portfolio",
-    description: "A personal portfolio website displaying my projects, skills, and contact info, with smooth animations using Framer Motion for an interactive experience.",
+    description: "A personal portfolio website that showcases my projects, skills, and contact information, with smooth animations using Framer Motion for an interactive experience.",
     image: project1,
-    technologies: ["HTML", "CSS", "React JS",],
-    link: "https://portfolio-y7rp.vercel.app/" // Live link to your portfolio
+    technologies: ["HTML", "CSS", "React JS"],
+    link: "https://portfolio-y7rp.vercel.app/"
   },
   {
-    title: "Feane",
-    description: "A fully functional e-commerce website with product listings, shopping cart, user authentication, and table booking features.",
+    title: "Feane Simple Ecommerce",
+    description: "A simple e-commerce website featuring product listings, a shopping cart, user authentication, and table booking functionality.",
     image: project2,
     technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
-    link: "https://feane-black.vercel.app/" // Live link to your Feane project
+    link: "https://feane-black.vercel.app/"
+  },
+  {
+    title: "Corporate Website",
+    description: "A website that introduces a company, highlights its services and career opportunities, and includes email functionality for contact.",
+    image: project4,
+    technologies: ["HTML", "CSS", "React JS", "Node JS", "MongoDB"],
+    link: "https://deepa-worksol-frontend.onrender.com/"
   },
   {
     title: "Quiz App",
-    description: "A fun and interactive quiz app built with ReactJS. Test your knowledge with multiple-choice questions and track your score in real time.",
+    description: "An fun quiz app built with ReactJS that lets users test their knowledge with multiple-choice questions and track their real-time scores.",
     image: project3,
     technologies: ["HTML", "CSS", "React"],
-    link: "https://quiz-app-chi-blond.vercel.app/" // Live link to your quiz app
+    link: "https://quiz-app-chi-blond.vercel.app/"
+  },
+  {
+    title: "CRUD",
+    description: "A simple CRUD (Create, Read, Update, Delete) application that allows users to manage data by adding, viewing, editing, and deleting records.",
+    image: project5,
+    technologies: ["HTML", "CSS", "React", "NodeJS", "MongoDB"],
+    link: "https://crud-frontend-kzj6.onrender.com"
+  },
+  {
+    title: "Food Delivery Ecommerce",
+    description: "A fully functional e-commerce website with product listings, a shopping cart, user authentication, and delivery features. An admin panel enables the owner to manage the website.",
+    image: project6,
+    technologies: ["HTML", "CSS", "MongoDB", "ExpressJS", "React", "NodeJS"],
+    link: "https://food-delivery-frontend-pusy.onrender.com",
+    adminLink: "https://food-delivery-admin-di0y.onrender.com" 
   }
 ];
 

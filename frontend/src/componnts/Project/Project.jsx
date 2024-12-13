@@ -24,7 +24,14 @@ const Project = () => {
               </a>
             </h6>
 
-            <p className="project-description">{project.description}</p>
+            {/* <p className="project-description">{project.description}</p> */}
+
+            <p className="project-description">
+              {project.description}
+              {project.title === "Food Delivery Ecommerce" && (
+                <span> <a href={project.adminLink} target="_blank" rel="noopener noreferrer">Click Admin Panel</a></span>
+              )}
+            </p>
 
             <div className="project-technologies">
               {project.technologies.map((tech, index) => (
